@@ -1,0 +1,18 @@
+---
+import data from "../../data.json";
+const { appTitle } = data;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{appTitle}</title>
+    </head>
+    <body class="bg-black text-white h-screen flex justify-center items-center">
+        <slot />
+    </body>
+</html>
