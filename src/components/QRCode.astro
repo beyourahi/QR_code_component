@@ -1,0 +1,19 @@
+---
+import data from "../../data.json";
+const { heading, subheading } = data;
+---
+
+<div class="bg-white flex flex-col rounded-3xl p-6 max-w-md">
+    <img src="/images/image-qr-code.png" alt="QR Code" class="rounded-3xl" />
+
+    <div class="text-black py-8 text-center space-y-6">
+        <h1
+            class="text-2xl font-extrabold tracking-wide lg:text-3xl 2xl:text-4xl"
+        >
+            {heading}
+        </h1>
+        <h2 class="text-gray-500 text-lg lg:text-xl 2xl:text-2xl">
+            {subheading}
+        </h2>
+    </div>
+</div>

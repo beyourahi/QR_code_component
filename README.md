@@ -1,21 +1,20 @@
-<h1 align="center">[Website Name]</h1>
+<h1 align="center">QR Code Component</h1>
 
-<!-- <h3 align="center">
+<h3 align="center">
 
-[Frontend Mentor Challenge Link](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
+[Frontend Mentor Challenge Link](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
 
-</h3> -->
+</h3>
 
-<!-- <br /> -->
+<br />
 
-<!-- ![Preview](./public/images/preview.jpeg) -->
+![Preview](./public/images/preview.jpg)
 
 <br />
 
 ### Tech stack used:
 
 -   [Astro](https://astro.build/)
--   [Typescript](https://www.typescriptlang.org/)
 -   [Tailwind CSS](https://tailwindcss.com/)
 -   [Vercel](https://vercel.com/)
 
@@ -43,6 +42,6 @@ pnpm dev
 
 <br />
 
-### How the app works:
+### How the website works:
 
-> ...........
+> Pulling data from `data.json` file and statically rendering on Astro components
